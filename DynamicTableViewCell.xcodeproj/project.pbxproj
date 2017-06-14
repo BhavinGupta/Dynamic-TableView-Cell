@@ -1,0 +1,416 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CDE96E3F9FFC5FAF27C07BD /* libPods-DynamicTableViewCell.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 53502BACD157D112FECB04B8 /* libPods-DynamicTableViewCell.a */; };
+		BD4346EB1EF12AD500083DFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4346EA1EF12AD500083DFC /* main.m */; };
+		BD4346EE1EF12AD500083DFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4346ED1EF12AD500083DFC /* AppDelegate.m */; };
+		BD4346F41EF12AD500083DFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD4346F21EF12AD500083DFC /* Main.storyboard */; };
+		BD4346F61EF12AD500083DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BD4346F51EF12AD500083DFC /* Assets.xcassets */; };
+		BD4346F91EF12AD500083DFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD4346F71EF12AD500083DFC /* LaunchScreen.storyboard */; };
+		BD4347021EF131F100083DFC /* DynamicTableViewCellVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4347011EF131F100083DFC /* DynamicTableViewCellVC.m */; };
+		BD4347051EF1337500083DFC /* DynamicTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4347041EF1337500083DFC /* DynamicTableCell.m */; };
+		BD4347081EF1347800083DFC /* DynamicCellObject.m in Sources */ = {isa = PBXBuildFile; fileRef = BD4347071EF1347800083DFC /* DynamicCellObject.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		53502BACD157D112FECB04B8 /* libPods-DynamicTableViewCell.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DynamicTableViewCell.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4346E61EF12AD500083DFC /* DynamicTableViewCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DynamicTableViewCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4346EA1EF12AD500083DFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD4346EC1EF12AD500083DFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BD4346ED1EF12AD500083DFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BD4346F31EF12AD500083DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BD4346F51EF12AD500083DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BD4346F81EF12AD500083DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BD4346FA1EF12AD500083DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD4347001EF131F100083DFC /* DynamicTableViewCellVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicTableViewCellVC.h; sourceTree = "<group>"; };
+		BD4347011EF131F100083DFC /* DynamicTableViewCellVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicTableViewCellVC.m; sourceTree = "<group>"; };
+		BD4347031EF1337500083DFC /* DynamicTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicTableCell.h; sourceTree = "<group>"; };
+		BD4347041EF1337500083DFC /* DynamicTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicTableCell.m; sourceTree = "<group>"; };
+		BD4347061EF1347800083DFC /* DynamicCellObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DynamicCellObject.h; sourceTree = "<group>"; };
+		BD4347071EF1347800083DFC /* DynamicCellObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DynamicCellObject.m; sourceTree = "<group>"; };
+		CFB3210EC20D370A23754603 /* Pods-DynamicTableViewCell.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicTableViewCell.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicTableViewCell/Pods-DynamicTableViewCell.debug.xcconfig"; sourceTree = "<group>"; };
+		E0C15F308948E9D384CA792F /* Pods-DynamicTableViewCell.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicTableViewCell.release.xcconfig"; path = "Pods/Target Support Files/Pods-DynamicTableViewCell/Pods-DynamicTableViewCell.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD4346E31EF12AD500083DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2CDE96E3F9FFC5FAF27C07BD /* libPods-DynamicTableViewCell.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26D5CD088E9FA735744308DD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFB3210EC20D370A23754603 /* Pods-DynamicTableViewCell.debug.xcconfig */,
+				E0C15F308948E9D384CA792F /* Pods-DynamicTableViewCell.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BD4346DD1EF12AD400083DFC = {
+			isa = PBXGroup;
+			children = (
+				BD4346E81EF12AD500083DFC /* DynamicTableViewCell */,
+				BD4346E71EF12AD500083DFC /* Products */,
+				26D5CD088E9FA735744308DD /* Pods */,
+				D5B617407C83FB7F9C04089A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BD4346E71EF12AD500083DFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD4346E61EF12AD500083DFC /* DynamicTableViewCell.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD4346E81EF12AD500083DFC /* DynamicTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				BD4346EC1EF12AD500083DFC /* AppDelegate.h */,
+				BD4346ED1EF12AD500083DFC /* AppDelegate.m */,
+				BD4347001EF131F100083DFC /* DynamicTableViewCellVC.h */,
+				BD4347011EF131F100083DFC /* DynamicTableViewCellVC.m */,
+				BD4347031EF1337500083DFC /* DynamicTableCell.h */,
+				BD4347041EF1337500083DFC /* DynamicTableCell.m */,
+				BD4347061EF1347800083DFC /* DynamicCellObject.h */,
+				BD4347071EF1347800083DFC /* DynamicCellObject.m */,
+				BD4346F21EF12AD500083DFC /* Main.storyboard */,
+				BD4346F51EF12AD500083DFC /* Assets.xcassets */,
+				BD4346F71EF12AD500083DFC /* LaunchScreen.storyboard */,
+				BD4346FA1EF12AD500083DFC /* Info.plist */,
+				BD4346E91EF12AD500083DFC /* Supporting Files */,
+			);
+			path = DynamicTableViewCell;
+			sourceTree = "<group>";
+		};
+		BD4346E91EF12AD500083DFC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BD4346EA1EF12AD500083DFC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5B617407C83FB7F9C04089A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53502BACD157D112FECB04B8 /* libPods-DynamicTableViewCell.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD4346E51EF12AD500083DFC /* DynamicTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD4346FD1EF12AD500083DFC /* Build configuration list for PBXNativeTarget "DynamicTableViewCell" */;
+			buildPhases = (
+				D77F87DB27C32D087F9DEDCA /* [CP] Check Pods Manifest.lock */,
+				BD4346E21EF12AD500083DFC /* Sources */,
+				BD4346E31EF12AD500083DFC /* Frameworks */,
+				BD4346E41EF12AD500083DFC /* Resources */,
+				9DD3D66EF7437821DFD824D6 /* [CP] Embed Pods Frameworks */,
+				DEAD7AE722822692F6DA7963 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DynamicTableViewCell;
+			productName = DynamicTableViewCell;
+			productReference = BD4346E61EF12AD500083DFC /* DynamicTableViewCell.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD4346DE1EF12AD400083DFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Easy Pay";
+				TargetAttributes = {
+					BD4346E51EF12AD500083DFC = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8N9YWC6Z6P;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = BD4346E11EF12AD400083DFC /* Build configuration list for PBXProject "DynamicTableViewCell" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BD4346DD1EF12AD400083DFC;
+			productRefGroup = BD4346E71EF12AD500083DFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD4346E51EF12AD500083DFC /* DynamicTableViewCell */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD4346E41EF12AD500083DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4346F91EF12AD500083DFC /* LaunchScreen.storyboard in Resources */,
+				BD4346F61EF12AD500083DFC /* Assets.xcassets in Resources */,
+				BD4346F41EF12AD500083DFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9DD3D66EF7437821DFD824D6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DynamicTableViewCell/Pods-DynamicTableViewCell-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D77F87DB27C32D087F9DEDCA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DEAD7AE722822692F6DA7963 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DynamicTableViewCell/Pods-DynamicTableViewCell-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD4346E21EF12AD500083DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4346EE1EF12AD500083DFC /* AppDelegate.m in Sources */,
+				BD4347021EF131F100083DFC /* DynamicTableViewCellVC.m in Sources */,
+				BD4347051EF1337500083DFC /* DynamicTableCell.m in Sources */,
+				BD4347081EF1347800083DFC /* DynamicCellObject.m in Sources */,
+				BD4346EB1EF12AD500083DFC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BD4346F21EF12AD500083DFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD4346F31EF12AD500083DFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BD4346F71EF12AD500083DFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BD4346F81EF12AD500083DFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BD4346FB1EF12AD500083DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BD4346FC1EF12AD500083DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BD4346FE1EF12AD500083DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFB3210EC20D370A23754603 /* Pods-DynamicTableViewCell.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8N9YWC6Z6P;
+				INFOPLIST_FILE = DynamicTableViewCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.easypay.DynamicTableViewCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0b85418b-46fc-40b6-8029-82dd77947e41";
+				PROVISIONING_PROFILE_SPECIFIER = EPWildcardDevelopmentProfile;
+			};
+			name = Debug;
+		};
+		BD4346FF1EF12AD500083DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0C15F308948E9D384CA792F /* Pods-DynamicTableViewCell.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 8N9YWC6Z6P;
+				INFOPLIST_FILE = DynamicTableViewCell/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.easypay.DynamicTableViewCell;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0b85418b-46fc-40b6-8029-82dd77947e41";
+				PROVISIONING_PROFILE_SPECIFIER = EPWildcardDevelopmentProfile;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD4346E11EF12AD400083DFC /* Build configuration list for PBXProject "DynamicTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4346FB1EF12AD500083DFC /* Debug */,
+				BD4346FC1EF12AD500083DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD4346FD1EF12AD500083DFC /* Build configuration list for PBXNativeTarget "DynamicTableViewCell" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4346FE1EF12AD500083DFC /* Debug */,
+				BD4346FF1EF12AD500083DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD4346DE1EF12AD400083DFC /* Project object */;
+}
